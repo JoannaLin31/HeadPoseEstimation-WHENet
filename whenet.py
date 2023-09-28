@@ -1,7 +1,7 @@
 import efficientnet as efn
 import keras
 import numpy as np
-from utils import softmax
+from utilsWHENet import softmax
 
 class WHENet:
     def __init__(self, snapshot=None):

@@ -65,7 +65,7 @@ import cv2
 import os
 import json
 import numpy as np
-from utils import projectPoints, align, rotationMatrixToEulerAngles2, reference_head, get_sphere, select_euler, inverse_rotate_zyx
+from utilsWHENet import projectPoints, align, rotationMatrixToEulerAngles2, reference_head, get_sphere, select_euler, inverse_rotate_zyx
 from PIL import Image
 import matplotlib.pyplot as plt
 
